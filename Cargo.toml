@@ -1,0 +1,16 @@
+[package]
+name = "radar-rs"
+version = "0.1.0"
+authors = ["Willi Kappler, grandor@gmx.de"]
+license = "MIT"
+description = "Processing radar data with Rust"
+readme = "README.md"
+repository = "https://github.com/willi-kappler/radar-rs"
+#exclude = ["*.png", "example", "target"]
+keywords = ["radar", "data", "process"]
+documentation = "https://docs.rs/radar-rs/0.1.0/radar_rs/"
+
+[dependencies]
+jobsteal = "0.5"
+log = "0.3"
+error-chain = "0.7"
