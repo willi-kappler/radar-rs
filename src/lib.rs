@@ -12,10 +12,10 @@
 //
 // #![plugin(clippy)]
 
-// `error_chain!` can recurse deeply
+// 'error_chain!' can recurse deeply
 #![recursion_limit = "1024"]
-
 
 #[macro_use] extern crate log;
 extern crate jobsteal;
 #[macro_use] extern crate error_chain;
+extern crate chrono;
