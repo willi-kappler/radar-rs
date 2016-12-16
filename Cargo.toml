@@ -6,7 +6,6 @@ license = "MIT"
 description = "Processing radar data with Rust"
 readme = "README.md"
 repository = "https://github.com/willi-kappler/radar-rs"
-#exclude = ["*.png", "example", "target"]
 keywords = ["radar", "data", "process"]
 documentation = "https://docs.rs/radar-rs/0.1.0/radar_rs/"
 
@@ -14,3 +13,4 @@ documentation = "https://docs.rs/radar-rs/0.1.0/radar_rs/"
 jobsteal = "0.5"
 log = "0.3"
 error-chain = "0.7"
+chrono = "0.2"
