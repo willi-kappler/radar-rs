@@ -50,6 +50,10 @@ trait GammaPixel {
 
 }
 
+trait PixelAccess {
+    
+}
+
 struct GammaRadarData<T: GammaPixel> {
     data: Vec<T>,
     metadata: GammaMetadata
