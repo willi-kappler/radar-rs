@@ -47,11 +47,18 @@ struct ComplexPixel {
 }
 
 trait GammaPixel {
-
+    get() -> Self
+    set(Self)
 }
 
 trait PixelAccess {
-    
+
+}
+
+impl GammaPixel for ComplexPixel {
+    get(self) -> Self {
+
+    }
 }
 
 struct GammaRadarData<T: GammaPixel> {
